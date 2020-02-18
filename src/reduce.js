@@ -10,4 +10,4 @@ const reduce = (reducer, initial, arr) => {
 };
 
 const b = reduce((acc, curr) => acc + curr, 0, [1, 2, 3]);
-b;
+console.log(b);
